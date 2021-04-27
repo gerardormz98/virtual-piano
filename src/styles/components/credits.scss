@@ -1,0 +1,39 @@
+.credits {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.credits span {
+    margin: 0.5rem 0;
+}
+
+.credits .fa-heart {
+    color: $heart-color;
+}
+
+.credits a {
+    &,
+    &:visited,
+    &:hover,
+    &:active,
+    &:focus,
+    &:active:hover {
+        font-style: inherit;
+        color: $text-link-color;
+        background-color: transparent;
+        font-size: inherit;
+        text-decoration: none;
+        font-variant: inherit;
+        font-weight: 600;
+        line-height: inherit;
+        font-family: inherit;
+        border-radius: inherit;
+        border: inherit;
+        outline: inherit;
+        box-shadow: inherit;
+        padding: inherit;
+        vertical-align: inherit;
+    }
+}

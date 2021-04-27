@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background: white;
+    background: radial-gradient(circle, white 0%, $background-color 100%);
+    margin: 0;
+    overflow: overlay;
+    height: 100vh;
+    padding: 2rem 0;
+    touch-action: none;
+    user-select: none;
+    font-family: 'Baloo 2', cursive;
+}
+
+.App {
+    height: calc(100vh - 4rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+canvas {
+    box-sizing: content-box;
+}

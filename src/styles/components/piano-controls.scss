@@ -1,0 +1,26 @@
+.piano-controls {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.piano-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1rem;
+}
+
+.piano-control__title {
+    margin-bottom: 0.7rem;
+    text-align: center;
+}
+
+.piano-control__title--on {
+    color: white;
+}
+
+.piano-control__title--off {
+    color: $text-off-color;
+}

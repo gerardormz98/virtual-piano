@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Virtual Piano",
+  "name": "Virtual Piano | Best online Grand Piano",
   "icons": [
     {
       "src": "favicon.ico",

@@ -1,0 +1,11 @@
+@import-normalize;
+@import 'animate.css/animate.compat.css';
+
+@import './base/settings.scss';
+@import './base/base.scss';
+
+@import './components/background-particles.scss';
+@import './components/brand.scss';
+@import './components/piano-container.scss';
+@import './components/piano-controls.scss';
+@import './components/credits.scss';
