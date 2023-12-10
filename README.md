@@ -2,7 +2,7 @@
 
 Virtual Piano is a simple online piano simulator that allows you to play the instrument with your mouse or keyboard. It includes real Grand Piano samples, so you can get a pretty good sound from it.
 
-You can see the live project here: https://react-virtual-piano.herokuapp.com/
+You can see the live project here: https://react-virtual-piano.netlify.app/
 
 ## Technologies
 
